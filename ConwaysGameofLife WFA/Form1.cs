@@ -135,6 +135,8 @@ namespace ConwaysGameofLife_WFA
 
         }
 
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             initCells();    
@@ -142,12 +144,16 @@ namespace ConwaysGameofLife_WFA
 
         private void button2_Click(object sender, EventArgs e)
         {
-            speed++;
+             speed += 10;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            speed--;
+            if (speed > 10)
+            {
+                speed -= 10;
+            }
+           
         }
     }
 
