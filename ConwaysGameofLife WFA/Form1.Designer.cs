@@ -43,14 +43,14 @@ namespace ConwaysGameofLife_WFA
             // 
             this.pictureBox2.Location = new System.Drawing.Point(12, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(492, 346);
+            this.pictureBox2.Size = new System.Drawing.Size(554, 528);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.picPaint);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(530, 296);
+            this.button1.Location = new System.Drawing.Point(588, 458);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -61,7 +61,7 @@ namespace ConwaysGameofLife_WFA
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(551, 202);
+            this.label1.Location = new System.Drawing.Point(605, 435);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 2;
@@ -69,7 +69,7 @@ namespace ConwaysGameofLife_WFA
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(530, 218);
+            this.button2.Location = new System.Drawing.Point(572, 430);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(27, 22);
             this.button2.TabIndex = 3;
@@ -79,7 +79,7 @@ namespace ConwaysGameofLife_WFA
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(578, 218);
+            this.button3.Location = new System.Drawing.Point(649, 430);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(27, 22);
             this.button3.TabIndex = 4;
@@ -89,7 +89,7 @@ namespace ConwaysGameofLife_WFA
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(633, 370);
+            this.ClientSize = new System.Drawing.Size(688, 552);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);

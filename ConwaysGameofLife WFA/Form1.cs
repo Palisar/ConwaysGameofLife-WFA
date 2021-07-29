@@ -21,7 +21,7 @@ namespace ConwaysGameofLife_WFA
     {
         Bitmap gameBitmap;
         Random r = new Random();
-        const int maxSize = 50;
+        const int maxSize = 130;
         Status[,] cellGrid;
         Status[,] nextGen;
         int index = 0;
@@ -95,7 +95,7 @@ namespace ConwaysGameofLife_WFA
             //    using (Graphics g = Graphics.FromImage(pictureBox2.Image))
             Graphics g = Graphics.FromImage(gameBitmap);  
             {
-                int w = 6;
+                int w = 4;
                 if (index == 1)
                 {
                     for (int i = 0; i < maxSize; i++)
